@@ -1,0 +1,48 @@
+---
+import Badge from "./badge.astro";
+
+const valores = [
+  "Compromiso",
+  "Empatía",
+  "Transparencia",
+  "Confianza",
+  "Responsabilidad",
+  "Innovación",
+  "Calidad",
+  "Trabajo en equipo",
+  "Respeto"
+];
+---
+
+<section
+  class="relative overflow-hidden bg-[#2F855A] text-white px-6 py-16 md:px-20 flex flex-col gap-16"
+>
+  <!-- Misión y Visión -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">Misión</h2>
+      <p class="text-lg leading-relaxed font-semibold">
+        Brindar asesoramiento personalizado en coberturas de salud, ofreciendo
+        soluciones confiables y accesibles que garanticen el bienestar de las
+        personas y sus familias.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-4xl font-bold mb-4">Visión</h2>
+      <p class="text-lg leading-relaxed font-semibold">
+        Ser referentes en el sector de obras sociales, destacándonos por la
+        calidad humana, la transparencia y el compromiso con la salud integral
+        de nuestros afiliados.
+      </p>
+    </div>
+  </div>
+
+  <!-- Valores -->
+  <div class="flex flex-col items-center md:items-start gap-6">
+    <h2 class="text-2xl font-bold tracking-wide">VALORES</h2>
+    <div class="flex flex-wrap justify-center md:justify-start gap-3">
+      {valores.map((valor) => <Badge label={valor} />)}
+    </div>
+  </div>
+</section>

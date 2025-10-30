@@ -1,0 +1,46 @@
+---
+export const faqs = [
+  {
+    question: "¿Qué obras sociales cubren?",
+    answer:
+      "Trabajamos con una amplia red de obras sociales y prepagas, garantizando opciones adaptadas a cada necesidad.",
+  },
+  {
+    question: "¿Cómo puedo afiliarme?",
+    answer:
+      "Podés iniciar el proceso completando nuestro formulario de contacto o llamándonos directamente. Te acompañaremos en cada paso.",
+  },
+  {
+    question: "¿Atienden consultas en todo el país?",
+    answer:
+      "Sí, ofrecemos atención presencial en nuestras sedes y también consultas virtuales para todo el territorio nacional.",
+  },
+  {
+    question: "¿Tienen planes familiares?",
+    answer:
+      "Sí, contamos con coberturas familiares con beneficios especiales y descuentos por grupo familiar.",
+  },
+];
+---
+
+<section class="py-20 bg-base-200">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-[#2F855A] mb-8">
+      Preguntas Frecuentes
+    </h2>
+
+    <div class="flex flex-col gap-4">
+      {faqs.map((faq, index) => (
+        <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-lg">
+          <input type="radio" name="faq-accordion" checked={index === 0} />
+          <div class="collapse-title text-lg font-semibold text-[#2F855A]">
+            {faq.question}
+          </div>
+          <div class="collapse-content text-gray-600">
+            <p>{faq.answer}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

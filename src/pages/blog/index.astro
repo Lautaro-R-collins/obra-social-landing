@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import { blogPosts } from "../../data/blogData.js";
+import BlogCard from "../../components/blog/BlogCard.astro";
+import Breadcrumbs from "../../components/blog/Breadcrumbs.astro";
+import Pagination from "../../components/blog/Pagination.astro";
+
+const url = new URL(Astro.request.url);
+const currentPage = parseInt(url.searchParams.get("page") || "1", 10);
+
+const postsPerPage = 6;
+const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+
+const start = (currentPage - 1) * postsPerPage;
+const end = start + postsPerPage;
+const currentPosts = blogPosts.slice(start, end);
+---
+
+<Base title="Blog" meta_title="Artículos legales | Legal Staff">
+  <section class="px-6 py-20 max-w-7xl mx-auto">
+    <Breadcrumbs
+      items={[
+        { label: "Inicio", href: "/" },
+        { label: "Blog", href: "/blog" },
+      ]}
+    />
+
+    <h1 class="text-center text-[#2F855A] text-3xl md:text-4xl font-extrabold uppercase tracking-[3px] mb-12">
+      Blog 
+    </h1>
+
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      {currentPosts.map((post) => (
+        <BlogCard post={post} />
+      ))}
+    </div>
+
+    <Pagination currentPage={currentPage} totalPages={totalPages} baseUrl="/blog" />
+  </section>
+</Base>
