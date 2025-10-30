@@ -1,18 +1,16 @@
-# 🏥 Obra Social - Sitio Web Institucional
+# Obra Social - Sitio Web
 
 Sitio web moderno y accesible desarrollado con **Astro** y **Tailwind CSS**, pensado para comunicar los servicios, beneficios y programas de salud de una obra social.
 
 ---
-![Uploading Obras Sociales.png…]()
+
+<img width="1366" height="2697" alt="Obras Sociales" src="https://github.com/user-attachments/assets/576d3359-4536-405b-bb62-74e8ba755c3a" />
 
 ## 🚀 Características
 
-- 💡 Diseño limpio, profesional y responsivo.
-- 📚 Sección de blog con artículos sobre salud y prevención.
-- ❓ FAQ interactivo con DaisyUI.
-- 👨‍⚕️ Sección de misión y valores institucionales.
-- 📱 Optimizado para móviles y tablets.
-- ⚡ Construido con **Astro**, **TailwindCSS** y **DaisyUI**.
+- Diseño limpio, profesional y responsivo.
+- Sección de blog con artículos sobre salud y prevención.
+- Construido con **Astro**, **TailwindCSS** y **DaisyUI**.
 
 ---
 
@@ -24,7 +22,4 @@ Sitio web moderno y accesible desarrollado con **Astro** y **Tailwind CSS**, pen
 - [JavaScript / JSON] — Para manejo de datos (blog, FAQ, etc.).
 
 ---
-
-## 📁 Estructura del proyecto
-
 
