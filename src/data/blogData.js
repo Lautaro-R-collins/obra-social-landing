@@ -1,134 +1,134 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "La importancia de una buena cobertura médica",
+    title: "The Importance of Good Health Coverage",
     description:
-      "Contar con una obra social sólida es clave para cuidar tu salud y la de tu familia.",
+      "Having solid health insurance is key to taking care of your health and your family's.",
     image: "https://images.unsplash.com/photo-1600959907703-125ba1374a12?q=80&w=800",
-    slug: "importancia-cobertura-medica",
-    date: "23 Oct 2025",
-    author: "Equipo SaludPlus",
+    slug: "importance-of-health-coverage",
+    date: "Oct 23, 2025",
+    author: "SaludPlus Team",
     content: `
-      <p>La salud no puede dejarse al azar. Contar con una cobertura médica adecuada garantiza atención de calidad en el momento en que más se necesita.</p>
-      <p>Una obra social eficiente no solo cubre emergencias, sino que también promueve la prevención, los chequeos periódicos y el acompañamiento integral de cada afiliado.</p>
-      <p>En <strong>SaludPlus</strong> trabajamos para que cada persona acceda a la atención que merece, con una red profesional confiable y una gestión transparente.</p>
+      <p>Health cannot be left to chance. Having adequate health coverage ensures quality care when it is needed most.</p>
+      <p>An efficient health plan not only covers emergencies but also promotes prevention, regular check-ups, and comprehensive support for each member.</p>
+      <p>At <strong>SaludPlus</strong>, we work so that everyone can access the care they deserve, with a reliable professional network and transparent management.</p>
     `
   },
   {
     id: 2,
-    title: "Chequeos médicos anuales: por qué son esenciales",
+    title: "Annual Medical Checkups: Why They Are Essential",
     description:
-      "Los controles preventivos permiten detectar enfermedades a tiempo y mejorar la calidad de vida.",
+      "Preventive check-ups help detect illnesses early and improve quality of life.",
     image: "https://images.unsplash.com/photo-1600959907703-125ba1374a12?q=80&w=800",
-    slug: "chequeos-anuales",
-    date: "10 Oct 2025",
-    author: "Dra. Laura Fernández",
+    slug: "annual-checkups",
+    date: "Oct 10, 2025",
+    author: "Dr. Laura Fernández",
     content: `
-      <p>La prevención es el primer paso hacia una vida saludable. Los chequeos médicos anuales ayudan a detectar posibles problemas antes de que se conviertan en algo serio.</p>
-      <p>Estos controles incluyen exámenes básicos, análisis clínicos y evaluaciones específicas según la edad y el historial médico del paciente.</p>
-      <p>Realizarlos de manera regular reduce los riesgos y permite mantener un seguimiento integral de la salud a largo plazo.</p>
+      <p>Prevention is the first step toward a healthy life. Annual medical check-ups help detect potential problems before they become serious.</p>
+      <p>These check-ups include basic exams, clinical tests, and specific evaluations based on the patient’s age and medical history.</p>
+      <p>Performing them regularly reduces risks and allows for comprehensive long-term health monitoring.</p>
     `
   },
   {
     id: 3,
-    title: "Salud mental: un pilar fundamental del bienestar",
+    title: "Mental Health: A Fundamental Pillar of Well-being",
     description:
-      "El cuidado de la mente es tan importante como el del cuerpo. Conocé cómo acceder al acompañamiento adecuado.",
+      "Caring for your mind is as important as caring for your body. Learn how to access the right support.",
     image: "https://images.unsplash.com/photo-1550831107-1553da8c8464?q=80&w=800",
-    slug: "salud-mental",
-    date: "2 Oct 2025",
-    author: "Equipo SaludPlus",
+    slug: "mental-health",
+    date: "Oct 2, 2025",
+    author: "SaludPlus Team",
     content: `
-      <p>El bienestar emocional influye directamente en la salud física. Estrés, ansiedad o agotamiento pueden afectar el rendimiento laboral y la vida cotidiana.</p>
-      <p>Por eso, los programas de salud mental que incluyen atención psicológica, talleres o acompañamiento terapéutico son esenciales en cualquier cobertura médica moderna.</p>
-      <p>Hablar de salud mental es hablar de bienestar integral.</p>
+      <p>Emotional well-being directly affects physical health. Stress, anxiety, or exhaustion can impact work performance and daily life.</p>
+      <p>That's why mental health programs, including psychological care, workshops, and therapeutic support, are essential in any modern health plan.</p>
+      <p>Talking about mental health means talking about holistic well-being.</p>
     `
   },
   {
     id: 4,
-    title: "Cobertura familiar: acompañando cada etapa de la vida",
+    title: "Family Coverage: Supporting Every Stage of Life",
     description:
-      "Desde la infancia hasta la adultez, una buena obra social crece junto a sus afiliados.",
+      "From childhood to adulthood, a good health plan grows with its members.",
     image: "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800",
-    slug: "cobertura-familiar",
-    date: "30 Sep 2025",
+    slug: "family-coverage",
+    date: "Sep 30, 2025",
     author: "Lic. Marcos Rivas",
     content: `
-      <p>Cada etapa de la vida tiene sus propias necesidades médicas. La cobertura familiar garantiza atención pediátrica, controles de embarazo, salud bucal, tratamientos crónicos y más.</p>
-      <p>Una obra social sólida acompaña a sus afiliados en cada momento, brindando seguridad y tranquilidad a toda la familia.</p>
+      <p>Every stage of life has its own medical needs. Family coverage ensures pediatric care, pregnancy check-ups, dental health, chronic treatments, and more.</p>
+      <p>A solid health plan supports its members at every moment, providing security and peace of mind for the whole family.</p>
     `
   },
   {
     id: 5,
-    title: "Programas de prevención: cuidar antes de curar",
+    title: "Prevention Programs: Caring Before Curing",
     description:
-      "La prevención es la herramienta más efectiva para mantener una buena salud a largo plazo.",
+      "Prevention is the most effective tool for maintaining long-term health.",
     image: "https://images.unsplash.com/photo-1600959907703-125ba1374a12?q=80&w=800",
-    slug: "programas-prevencion",
-    date: "25 Sep 2025",
-    author: "Equipo SaludPlus",
+    slug: "prevention-programs",
+    date: "Sep 25, 2025",
+    author: "SaludPlus Team",
     content: `
-      <p>Los programas de prevención permiten detectar factores de riesgo y adoptar hábitos saludables.</p>
-      <p>Desde campañas de vacunación hasta talleres sobre alimentación o actividad física, estas iniciativas mejoran la calidad de vida y reducen la necesidad de tratamientos complejos.</p>
-      <p>Prevenir es invertir en salud.</p>
+      <p>Prevention programs allow identifying risk factors and adopting healthy habits.</p>
+      <p>From vaccination campaigns to workshops on nutrition or physical activity, these initiatives improve quality of life and reduce the need for complex treatments.</p>
+      <p>Prevention is investing in health.</p>
     `
   },
   {
     id: 6,
-    title: "Telemedicina: atención rápida y accesible",
+    title: "Telemedicine: Fast and Accessible Care",
     description:
-      "Consultas médicas en línea, una herramienta clave para acercar la salud a todos.",
+      "Online medical consultations, a key tool to bring healthcare closer to everyone.",
     image: "https://images.unsplash.com/photo-1600959907703-125ba1374a12?q=80&w=800",
-    slug: "telemedicina",
-    date: "20 Sep 2025",
-    author: "Dra. Natalia Gómez",
+    slug: "telemedicine",
+    date: "Sep 20, 2025",
+    author: "Dr. Natalia Gómez",
     content: `
-      <p>La telemedicina revolucionó la forma en que accedemos a la atención médica. Permite realizar consultas rápidas y seguras desde cualquier lugar, sin esperas ni traslados.</p>
-      <p>Ideal para seguimientos, recetas o dudas menores, complementa perfectamente la atención presencial.</p>
-      <p>La tecnología puesta al servicio del bienestar.</p>
+      <p>Telemedicine has revolutionized how we access healthcare. It allows quick and safe consultations from anywhere, without waiting or traveling.</p>
+      <p>Ideal for follow-ups, prescriptions, or minor questions, it perfectly complements in-person care.</p>
+      <p>Technology at the service of well-being.</p>
     `
   },
   {
     id: 7,
-    title: "Alimentación saludable y prevención de enfermedades",
+    title: "Healthy Eating and Disease Prevention",
     description:
-      "Una dieta equilibrada es clave para mantener la salud física y mental.",
+      "A balanced diet is key to maintaining physical and mental health.",
     image: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=800",
-    slug: "alimentacion-saludable",
-    date: "15 Sep 2025",
+    slug: "healthy-eating",
+    date: "Sep 15, 2025",
     author: "Lic. Sofía Benítez",
     content: `
-      <p>Comer bien no se trata de hacer dietas, sino de adoptar hábitos sostenibles. Una alimentación equilibrada ayuda a prevenir enfermedades cardiovasculares, diabetes y otros trastornos metabólicos.</p>
-      <p>Incluir frutas, verduras, cereales integrales y proteínas magras mejora la energía y fortalece el sistema inmunológico.</p>
-      <p>La salud empieza en el plato.</p>
+      <p>Eating well is not about dieting, but adopting sustainable habits. A balanced diet helps prevent cardiovascular diseases, diabetes, and other metabolic disorders.</p>
+      <p>Including fruits, vegetables, whole grains, and lean proteins boosts energy and strengthens the immune system.</p>
+      <p>Health starts on your plate.</p>
     `
   },
   {
     id: 8,
-    title: "Atención médica personalizada: el valor del trato humano",
+    title: "Personalized Medical Care: The Value of Human Touch",
     description:
-      "La empatía y el acompañamiento cercano son parte esencial de una buena atención.",
+      "Empathy and close support are essential parts of good care.",
     image: "https://images.unsplash.com/photo-1576765607924-b321a4a69a7a?q=80&w=800",
-    slug: "atencion-personalizada",
-    date: "10 Sep 2025",
-    author: "Equipo SaludPlus",
+    slug: "personalized-care",
+    date: "Sep 10, 2025",
+    author: "SaludPlus Team",
     content: `
-      <p>Más allá de los diagnósticos y tratamientos, la atención médica debe centrarse en la persona. Escuchar, acompañar y comprender son valores fundamentales para construir confianza.</p>
-      <p>La atención personalizada fortalece el vínculo entre pacientes y profesionales, mejorando los resultados clínicos y la experiencia de cuidado.</p>
+      <p>Beyond diagnoses and treatments, medical care must focus on the person. Listening, supporting, and understanding are key values for building trust.</p>
+      <p>Personalized care strengthens the bond between patients and professionals, improving clinical outcomes and the care experience.</p>
     `
   },
   {
     id: 9,
-    title: "Actividad física: el complemento ideal de la salud",
+    title: "Physical Activity: The Ideal Complement to Health",
     description:
-      "Ejercitarse regularmente ayuda a prevenir enfermedades y mejorar el bienestar general.",
+      "Regular exercise helps prevent diseases and improve overall well-being.",
     image: "https://images.unsplash.com/photo-1599058917212-d750089bc07a?q=80&w=800",
-    slug: "actividad-fisica",
-    date: "5 Sep 2025",
+    slug: "physical-activity",
+    date: "Sep 5, 2025",
     author: "Dr. Ricardo Álvarez",
     content: `
-      <p>El ejercicio no solo fortalece el cuerpo, también mejora el estado de ánimo y la concentración. Caminar, nadar o realizar actividades recreativas son formas simples de mantenerse activo.</p>
-      <p>La actividad física regular previene enfermedades crónicas y mejora la calidad del sueño y la energía diaria.</p>
+      <p>Exercise not only strengthens the body but also improves mood and concentration. Walking, swimming, or recreational activities are simple ways to stay active.</p>
+      <p>Regular physical activity prevents chronic diseases and improves sleep quality and daily energy.</p>
     `
   },
 ];
