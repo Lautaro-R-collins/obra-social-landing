@@ -1,24 +1,24 @@
-# Obra Social - Sitio Web
+# Social Health - Website
 
-Sitio web moderno y accesible desarrollado con **Astro** y **Tailwind CSS**, pensado para comunicar los servicios, beneficios y programas de salud de una obra social.
-
----
-
-
-## 🚀 Características
-
-- Diseño limpio, profesional y responsivo.
-- Sección de blog con artículos sobre salud y prevención.
-- Construido con **Astro**, **TailwindCSS** y **DaisyUI**.
+Modern and accessible website developed with Astro and Tailwind CSS, designed to showcase the services, benefits, and health programs of a health insurance provider.
 
 ---
 
-## 🧩 Tecnologías utilizadas
 
-- [Astro](https://astro.build/) — Framework rápido para sitios estáticos.
-- [Tailwind CSS](https://tailwindcss.com/) — Estilos modernos y utilitarios.
-- [DaisyUI](https://daisyui.com/) — Componentes preconstruidos para Tailwind.
-- [JavaScript / JSON] — Para manejo de datos (blog, FAQ, etc.).
+## 🚀 Features
+
+- Clean, professional, and responsive design.
+- Blog section with articles about health and prevention.
+- Built with Astro, TailwindCSS, and DaisyUI.
+
+---
+
+## 🧩 Technologies Used
+
+- [Astro](https://astro.build/)
+- [Tailwind CSS](https://tailwindcss.com/) 
+- [DaisyUI](https://daisyui.com/) 
+- [JavaScript / JSON] 
 
 ---
 
